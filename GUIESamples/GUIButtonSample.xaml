@@ -1,0 +1,43 @@
+﻿<Window x:Class="GUIESamples.GUIButtonSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUIESamples"
+        mc:Ignorable="d"
+        Title="GUIButton Samples"
+        WindowState="Maximized">
+    <Window.Background>
+        <ImageBrush x:Name="WindowImage"></ImageBrush>
+    </Window.Background>
+    <ScrollViewer Padding="0"
+                  VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Hidden"
+                CanContentScroll="True">
+        <Grid Name="Surface" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+        </Grid>
+    </ScrollViewer>
+</Window>
